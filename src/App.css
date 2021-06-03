@@ -28,6 +28,10 @@
   color: #61dafb;
 }
 
+img.rong100{
+  width:100%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +39,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+.nav-link.active{
+  background-color:#61dafb;
+  color: black;
+  
+}
+
+h5.cartitle,.textTitle, .card-title,.card-text{
+  color: black;
+  text-decoration: none;
+}
+.card {
+  text-decoration: none;
+}
+.trichdan{
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 25px;
+  -webkit-line-clamp: 3;
+  height: 75px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.hinhanh{
+  height:200px;
+}
+#container {
+  position: relative;
+}
+#copyright {
+  position: absolute;
+  bottom: 0;
+}
+#mainNav{
+  background-color:#F00; /*whichever you want*/
+  opacity: 0.6; 
+  filter:(opacity=50);  
+}
+.tieude{
+  font-size:30px;
 }
